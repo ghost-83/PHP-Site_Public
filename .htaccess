@@ -1,0 +1,4 @@
+<IfModule dir_module>
+    DirectoryIndex index.php
+    #RewriteRule ^reg-admin?$ reg-admin.php [NC, L]
+</IfModule>

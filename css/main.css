@@ -1,0 +1,45 @@
+body {
+  background: url('../media/img/texture.jpg');
+  background-size: 100%; 
+  /*
+  background: linear-gradient(to top, #9dff8a 0%, hsl(61, 91%, 67%) 36%, rgb(16, 238, 183) 100%);
+  */
+}
+.container {
+  padding-top: 50px;
+}
+.form-section {
+  background:#fff;
+  padding: 20px;
+  border: 1px solid silver;
+  box-sizing: border-box;
+  width: 100%;
+  -webkit-box-shadow: 0 2px 3px 0 rgba(74,74,74,.21);
+  -moz-box-shadow: 0 2px 3px 0 rgba(74,74,74,.21);
+  box-shadow: 0 2px 3px 0 rgba(74,74,74,.21);
+}
+
+.form-section > h2 {
+color: #b38a22;
+margin-bottom: 10px;
+}
+.g_shadow {
+  box-shadow: 7px 7px 5px rgba(0,0,0,0.6);
+}
+.leftimg {
+  float:left; /* Выравнивание по левому краю */
+  margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+}
+.rightimg  {
+  float: right; /* Выравнивание по правому краю  */ 
+  margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
+}
+p {
+  text-indent: 20px; /* Отступ первой строки в пикселах */
+}
+#errorBlock {
+  display: none;
+}
+#text {
+  height: 200px;
+}
